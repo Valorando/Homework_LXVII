@@ -1,0 +1,10 @@
+{
+    "Host": "localhost",
+    "User": "root",
+    "Password": "97591",
+    "Database": "ToDo_List",
+    "Get_all_tasks_request": "SELECT Task, Status FROM Tasks",
+    "Add_task_request": "INSERT INTO Tasks (Task, Status) VALUES (%s, %s)",
+    "Edit_task_request": "UPDATE Tasks SET Task = %s, Status = %s WHERE Task = %s",
+    "Delete_task_request": "DELETE FROM Tasks WHERE Task = %s"
+}
